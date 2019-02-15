@@ -8,6 +8,6 @@ RUN rpm --import https://yum.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW
 RUN yum -y update; yum clean all
 
 # install packages
-RUN yum -y install intel-mkl-2019.2-053
+RUN yum -y install intel-mkl-2019.1-053
 
 RUN yum clean all
